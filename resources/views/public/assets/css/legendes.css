@@ -1,0 +1,306 @@
+#legendes {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#legendes .thumbnail{
+	background: transparent !important;
+	border: none !important;
+	padding: 0px;
+	position: relative;
+	
+}
+
+#legendes .thumbnail img{
+	border-radius: 5px;
+	-webkit-box-shadow: 0px -2px 7px -3px rgba(148,135,148,1);
+	-moz-box-shadow: 0px -2px 7px -3px rgba(148,135,148,1);
+	box-shadow: 0px -2px 7px -3px rgba(148,135,148,1);
+	border-bottom-left-radius : 0px;
+	border-bottom-right-radius : 0px;
+}
+
+#legendes .thumbnail .caption{
+	background: #ffffff;
+	-webkit-box-shadow: 0px 4px 17px -4px rgba(0,0,0,0.70);
+	-moz-box-shadow: 0px 4px 17px -4px rgba(0,0,0,0.70);
+	box-shadow: 0px 4px 17px -4px rgba(0,0,0,0.70);
+  	text-align: center;
+  	opacity: .8;
+  	padding-bottom: 45px;
+	margin-top: 0px;
+}
+
+#legendes .thumbnail #content h5{
+	font-size: 16px;
+}
+
+#legendes .title-container{
+	display: table;
+	height: 45px;
+	min-width: 100%;
+	margin: auto 0px;
+	margin-top: 5px;
+	text-align: right !important;
+}
+
+#legendes .title-container p{
+	text-align: right !important;
+	display: table-cell;
+    vertical-align: middle;
+    opacity: .9;
+}
+
+
+#legendes .thumbnail .overlay{
+	background: rgba(0, 0, 0, 0.7);
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#legendes .thumbnail .caption #social-networks{
+	display: table;
+}
+
+#legendes .thumbnail .caption #social-networks ul{
+	padding: 0px;
+}
+
+#legendes .thumbnail .caption #social-networks ul li{
+	list-style: none;
+	display: inline;
+	margin-right: 2px;
+}
+
+#legendes .thumbnail .caption #social-networks ul li a{
+	text-decoration: none;
+}
+
+#legendes .thumbnail .caption #social-networks ul li a span{
+	font-size: 17px;
+	color: #171616;
+}
+
+#legendes .thumbnail .caption #social-networks ul li a span.ion-social-facebook:hover{
+	color: #3896D6;
+}
+
+#legendes .thumbnail .caption #social-networks ul li a span.ion-social-twitter:hover{
+	color: #7BE2F7;
+}
+
+#legendes .thumbnail .caption #social-networks ul li a span.ion-social-googleplus:hover{
+	color: #F1737B;
+}
+
+#legendes #social-networks{
+	margin-bottom: 20px;
+}
+
+#legendes #slug{
+	text-decoration: none;
+	color: #171616;
+}
+
+#legendes ul#social-networkss li{
+	list-style: none;
+	display: inline;
+}
+
+#legendes ul#social-networkss li a{
+	text-decoration: none;
+	color: #D9D6D6;
+	font-size: 18px;
+}
+
+#legendes span.ion-social-facebook:hover{
+	color: #3896D6;
+}
+
+#legendes span.ion-social-twitter:hover{
+	color: #7BE2F7;
+}
+
+#legendes span.ion-social-googleplus:hover{
+	color: #F1737B;
+}
+
+#legendes .thumbnail .caption #post-auther{
+	font-size: 15px;
+	margin-bottom: -2px;
+
+}
+
+#legendes .thumbnail .caption #post-title{
+	font-size: 14px;
+	
+}
+
+#legendes #likes ul{
+	padding-top: 8px;
+}
+
+#legendes #likes ul li{
+	display: inline;
+	list-style: none;
+}
+
+#legendes #likes ul li#like{
+	padding-right: 9px;
+}
+
+#legendes #likes ul li a{
+	text-decoration: none;
+}
+
+#legendes #likes ul li a .ion-android-favorite-outline{
+	color: #D9D6D6;
+	font-size: 20px;
+}
+
+#legendes #likes ul li a .ion-android-favorite{
+	color: #68B6E8;
+	font-size: 20px;
+}
+
+#legendes a .ion-ios-star-outline{
+	color: #D9D6D6;
+	font-size: 23px;
+}
+
+#legendes a .ion-ios-star{
+	color: #FFD33C;
+	font-size: 23px;
+}
+
+#legendes #more-content{
+	padding-top: 30%;
+}
+
+#legendes #more{
+	text-decoration: none;
+	color: #D9D6D6;
+	padding: 0px;
+	margin: 0px;
+}
+
+#legendes #more span{
+	padding: 0px;
+	margin: 0px;
+	font-size: 50px;
+}
+
+#legendes #comments{
+	text-decoration: none;
+	color: #B9B5B5;
+}
+
+#legendes #comments .ion-ios-chatbubble-outline{
+	text-decoration: none;
+	color: #B9B5B5;
+	font-size: 24px;
+}
+
+#legendes #comments #numbers{
+	color: #B9B5B5;
+	font-size: 12px;
+	margin-left: 2px;
+	position: absolute;
+	margin-top: 9px;
+}
+
+#legendes #date{
+	position: absolute;
+	right: 15px;
+	padding-top: 9px;
+}
+
+#legendes .thumbnail .caption #likes a .ion-android-favorite-outline{
+	color: #171616;
+	opacity: .3;
+	font-size: 20px;
+}
+
+#legendes .thumbnail .caption #likes a .ion-android-favorite{
+	color: #68B6E8;
+	opacity: 1;
+	font-size: 20px;
+}
+
+#legendes .thumbnail .caption #actions{
+	position: relative;
+}
+
+#legendes .thumbnail .caption #likes a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #171616;
+}
+
+#legendes .thumbnail .caption #comments a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #171616;
+	opacity: .5;
+}
+
+#legendes .thumbnail .caption #comments a #comments-number{
+	position: absolute;
+	padding-left: 8px;
+	padding-right: 5px;
+	right: 5px;
+	top: 8px;
+}
+
+#legendes .thumbnail .caption #comments a .ion-ios-chatbubble-outline{
+	font-size: 24px;
+	position: absolute;
+	right: 20px;
+	top: 2px;
+	color: #171616;
+}
+
+#legendes .thumbnail .caption #likes a .ion-android-favorite-outline{
+	color: #171616;
+	opacity: .3;
+	padding-top: 5px;
+	position: absolute;
+	right: 60px;
+}
+
+#legendes .thumbnail .caption #likes a .ion-android-favorite{
+	color: #68B6E8;
+	opacity: 1;
+	padding-top: 5px;
+	position: absolute;
+	right: 60px;
+}
+
+#legendes .thumbnail .caption #numbers{
+	opacity: .4;
+	font-size: 14px;
+	top: -1px;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 10px;
+	right: 48px;
+}
+
+#legendes .thumbnail .caption #favorite a .ion-ios-star-outline{
+	color: #171616;
+	opacity: .3;
+	padding-top: 10px;
+}
+
+#legendes .thumbnail .caption #favorite a .ion-ios-star{
+	color: #FFD33C;
+	opacity: 1;
+	padding-top: 10px;
+	
+}

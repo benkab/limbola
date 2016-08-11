@@ -1,0 +1,362 @@
+#single_posts{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+#single_posts #post-body{
+	line-height: 38px !important;
+	font-size: 16px !important;
+}
+
+#single_posts #undo	{
+	text-decoration: none;
+	color: #333333;
+	font-size: 18px;
+}
+
+#single_posts h3#title{
+	opacity: .9;
+	text-align: left !important;
+	font-size: 14px !important;
+}
+
+#single_posts #post-body{
+	margin-bottom: 30px;
+}
+
+#single_posts .thumbnail{
+	background: transparent;
+	border: none;
+}
+
+#single_posts .thumbnail img{
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 4px 12px -2px rgba(145,143,145,1);
+	-moz-box-shadow: 0px 4px 12px -2px rgba(145,143,145,1);
+	box-shadow: 0px 4px 12px -2px rgba(145,143,145,1);
+
+}
+
+#single_posts #back{
+	text-decoration: none;
+	opacity: .5;
+	margin-bottom: 0px !important;
+}
+#single_posts #back span.icon{
+	font-size: 20px;
+	color: #2E2D2C;
+	margin-top: 4px;
+	margin-right: 3px;
+}
+
+#single_posts #links li a.btn{
+	padding: 0px 7px;
+	margin-top: 10px;
+}
+
+#single_posts  a{
+	text-decoration: none;
+}
+
+#single_posts a .ion-ios-star-outline{
+	color: #171616;
+	opacity: .3;
+	font-size: 28px;
+}
+
+#single_posts  a .ion-ios-star{
+	color: #FFD33C;
+	opacity: 1;
+	font-size: 28px;
+}
+
+#single_posts a .ion-android-favorite-outline{
+	color: #171616;
+	opacity: .3;
+	font-size: 20px;
+}
+
+#single_posts  a .ion-android-favorite{
+	color: #4BADCF;
+	opacity: 1;
+	font-size: 20px;
+}
+
+#single_posts #num{
+	text-decoration: none;
+	color: #171616;
+	font-size: 14px;
+	position: absolute;
+	top: 4px;
+	opacity: 0.5;
+	padding-left: 3px;
+	padding-right: 0px;
+	margin-right: 0px;
+
+}
+
+
+
+
+#single_posts #auther{
+	font-size: 15px;
+	opacity: .7;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+#single_posts #date{
+	margin-top: 4px !important;
+	padding-top: 0px !important;
+	
+}
+
+
+
+#single_posts #comments{
+	padding-bottom: 50px;
+}
+
+#single_posts #post-tags{
+	padding: 0px;
+	margin-top: 0px;
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+#single_posts #post-tags li{
+	padding: 5px 12px;
+	border: none;
+	line-height: 35px;
+	display: inline;
+	background: #CFE9F5;
+	border-radius: 0px;
+}
+
+#single_posts #post-tags li span{
+	text-decoration: none;
+	color: #333333;
+	font-size: 12.5px;
+}
+
+#single_posts #social-networks{
+	display: table;
+}
+
+#single_posts ul{
+	padding: 0px;
+	padding-left: 15px;
+}
+
+#single_posts ul li{
+	list-style: none;
+	display: inline;
+	margin-right: 2px;
+}
+
+#single_posts ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+#single_posts #post-text{
+	margin-bottom: 30px;
+}
+
+
+#single_posts ul li a{
+	text-decoration: none;
+}
+
+#single_posts ul li a span{
+	font-size: 17px;
+	color: #171616;
+}
+
+#single_posts ul li a span.ion-social-facebook:hover{
+	color: #3896D6;
+}
+
+#single_posts ul li a span.ion-social-twitter:hover{
+	color: #7BE2F7;
+}
+
+#single_posts ul li a span.ion-social-googleplus:hover{
+	color: #F1737B;
+}
+
+
+#single_posts .panel-default{
+	padding: 10px 25px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	text-align: justify;
+	border: none;
+	-webkit-box-shadow: 0px 4px 12px -2px rgba(145,143,145,1);
+	-moz-box-shadow: 0px 4px 12px -2px rgba(145,143,145,1);
+	box-shadow: 0px 4px 12px -2px rgba(145,143,145,1);
+}
+
+#single_posts #post{
+	font-size: 22px;
+}
+
+/* Comments */
+#single_posts .media-object{
+	width: 40px;
+	height: 45px;
+	border-radius: 20%;
+}
+
+#single_posts .media-body p span{
+	font-size: 13px;
+}
+
+#single_posts .ion-trash-b{
+	font-size: 14px;
+	color: #171616;
+}
+
+#single_posts .ion-flag{
+	font-size: 14px;
+	color: #F1634C;
+}
+
+#single_posts #token{
+	margin-bottom: 10px;
+}
+
+#single_posts #commentaires{
+	margin-bottom: 20px;
+}
+
+#single_posts #suggestion img:hover{
+	cursor: pointer;
+
+}
+
+.wrapper{
+    border: none;
+    background: transparent;
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.overlay{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.6);
+    transition: bottom 0.6s ease;
+    color: #ffffff;
+}
+
+.overlay{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    transition: bottom 0.3s ease;
+    color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.wrapper:hover .overlay{
+    bottom: -100%;
+}
+
+.overlay p{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.6);
+    transition: bottom 0.6s ease;
+
+}
+
+.overlay #carousel-post-title{
+	margin-top: 10%;
+	font-size: 14px;
+	color: #ffffff;
+	opacity: .7;
+}
+
+.overlay #carousel-post-title-2{
+	margin-top: 20%;
+}
+.overlay a{
+	text-decoration: none;
+	background: #F42515;
+	color: #ffffff;
+	padding: 12px 35px;
+	border-radius: 0px;
+}
+
+.overlay #carousel-post-container{
+	max-width: 70%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.overlay #carousel-link{
+	position: absolute;
+	margin: 0 auto;
+	bottom: 58%;
+	text-align: center;
+	left: 0%;
+	right: 0%;
+}
+
+.overlay #single-post-suggestion-comments{
+	position: absolute;
+	margin-top: 35%;
+	background: transparent;
+	text-align: center;
+	left: 0%;
+	right: 0%;
+	opacity: .7;
+}
+
+.overlay #single-post-suggestion-comments .ion-ios-chatbubble-outline{
+	font-size: 26px;
+}
+
+.overlay #suggestion-comment-number{
+	position: absolute;
+	top: 9px;
+}
+
+#single_posts #other-items{
+	padding-bottom: 20px;
+}
+
+#single_posts #other-items ul li a{
+	text-decoration: none;
+	color: #333333;
+	opacity: 0.8;
+}
+
+#single_posts #other-items .ion-ios-chatbubble-outline{
+	font-size: 26px;
+	opacity: 0.7;
+}
+
+#single_posts #other-items .ion-ios-eye-outline{
+	font-size: 26px;
+	opacity: 0.7;
+}
+
+#single_posts #other-items .comment-number{
+	position: absolute;
+	margin-top: 9px;
+	opacity: 0.7;
+}

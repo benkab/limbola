@@ -1,0 +1,13 @@
+#side-post a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #171616;
+}
+
+#side-post #most-view-posts{
+	padding-bottom: 30px;
+}
+
+#side-post #most-view-posts b{
+	opacity: .8;
+}

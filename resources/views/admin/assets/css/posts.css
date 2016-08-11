@@ -1,0 +1,235 @@
+#posts #article-title p{
+	font-size: 15px;
+	margin-bottom: 0;
+	font-weight: 400;
+	color: #6C6A6A;
+}
+
+#posts #article-body #body-contenu{
+	font-size: 10px;
+	margin-bottom: 20px;
+	margin-top: -5px;
+	padding-top: 0px;
+	font-family: 'Proza Libre', sans-serif !important;
+}
+
+#posts #article-title span{
+	font-size: 12px;
+	color: #bbbbbb;
+}
+
+#posts p#article-auther{
+	padding-top: 15px;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+#posts .artiicle-status{
+	margin-top: 17px;
+	margin-bottom: 10px;
+}
+
+#posts .artiicles-actions {
+	margin-top: 15px;
+}
+
+#posts .artiicles-actions a span{
+	font-size: 13px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+#posts #new-post-link{
+	background: #2E2D2C;
+	color: #ffffff;
+	border-color: transparent;
+	margin-top: -33px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+}
+
+#posts #new-post-link:hover{
+	background: #000000;
+	color: #ffffff;
+}
+
+#posts #new-post-link span.icon{
+	font-size: 16px;
+}
+
+.chosen-container, .chosen-container-multi{
+	width: 100% !important;
+}
+
+#category{
+	font-size: 13px;
+}
+
+#view-category{
+	margin-top: 17px;
+	font-weight: bold;
+}
+
+#view-category-inner{
+	margin-bottom: 15px;
+}
+
+#view-category span{
+	font-size: 14px;
+	border: 1px solid #2E2D2C;
+	padding: 4px 10px;
+	border-radius: 5px;
+}
+
+/* View Post */
+#view-post{
+	padding-top: 20px;
+}
+
+#view-post .thumbnail{
+	border: none;
+
+}
+
+#view-post #view-status{
+	padding-top: 10px;
+}
+
+#view-post .thumbnail img{
+	border-radius: 5px;
+}
+
+#view-post #links{
+	padding: 0px;
+}
+
+#view-post #links li{
+	display: inline;
+	list-style: none;
+}
+
+#view-post #links li a{
+	text-decoration: none;
+}
+#view-post #links li a span.icon{
+	font-size: 20px;
+	color: #2E2D2C;
+	margin-top: 4px;
+	margin-right: 3px;
+}
+
+#view-post #links li a.btn{
+	padding: 0px 7px;
+	margin-top: 10px;
+}
+
+#view-post #favorite a{
+	text-decoration: none;
+	font-size: 25px;
+	color: #171616;
+}
+
+#view-post #favorite a .ion-ios-star-outline{
+	color: #171616;
+	opacity: .3;
+}
+
+#view-post #favorite a .ion-ios-star{
+	color: #FFD33C;
+	opacity: 1;
+}
+
+
+#view-post #auther span{
+	font-size: 12px;
+}
+
+#view-post #date{
+	margin-top: -8px;
+	margin-bottom: 20px;
+	position: absolute;
+}
+
+#view-post #like-block{
+	margin-top: 10px;
+	display: inline;
+	font-size: 14px;
+	border: 1px solid #999898;
+	padding-left: 7px;
+	padding-right: 7px;
+	border-radius: 6%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+#view-post #like-block a{
+	text-decoration: none;
+	padding-right: 3px;
+	
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+#view-post #isLiked{
+	color: #4BADCF;
+}
+
+#view-post #isNotLiked{
+	color: #999898;
+}
+
+#view-post #like-block #likes{
+	padding-left: 8px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-left: 1px solid #999898;
+}
+
+#view-post #comments{
+	padding-right: 5px;
+	border: 1px solid #999898;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	font-size: 13px;
+	border-radius: 6%;
+	text-decoration: none;
+	margin-left: 10px;
+	color: #2E2D2C;
+}
+
+#post-tags{
+	padding: 0px;
+}
+
+#post-tags li{
+	list-style: none;
+	display: inline;
+	background: #ECECEC;
+	padding: 6px 10px;
+	border-radius: 6%;
+	margin-right: 5px;
+}
+
+#view-post #post-body{
+	font-family: 'Proza Libre', sans-serif !important;
+	font-size: 13px !important;
+	line-height: 28px;
+}
+
+#back{
+	color: #2E2D2C;
+}
+
+.post-tags{
+	margin-bottom: 20px;
+}
+
+#all-post-image{
+	width: 60px;
+	height: 55px;
+	border-radius: 10%;
+}
+
+
+

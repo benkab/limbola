@@ -1,0 +1,33 @@
+#tasks #description{
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+
+#tasks a{
+	text-decoration: none;
+	color: #2E2D2C;
+	font-size: 15px;
+	padding-left: 1px;
+}
+
+#tasks #desc{
+	padding: 0px;
+	text-align: left;
+}
+
+#tasks a .ion-android-checkmark-circle{
+	color: #4AACE1;
+}
+
+#tasks a .ion-trash-b{
+	color: #DC501B;
+}
+
+#tasks h5 span.icon{
+	font-size: 15px;
+}
+
+#tasks #time{
+	text-align: center !important;
+	text-decoration: underline;
+}

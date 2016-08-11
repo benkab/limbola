@@ -1,0 +1,81 @@
+
+#nav-side{
+	background-color: #2E2D2C;
+	color: #979595;
+	padding: 0px;
+	margin: 0px;
+}
+
+#nav-side ul {
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#nav-side ul li{
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 30px;
+}
+
+#nav-side ul li:hover{
+	background-color: #030303;
+	border-left: 5px solid #979595;
+	padding-right: 0px;
+}
+
+#nav-side ul li.active-link-2{
+	background-color: #030303;
+	border-left: 5px solid #979595;
+	padding-right: 0px;
+}
+
+#nav-side ul li a{
+	text-decoration: none;
+	color: #979595;
+}
+
+#nav-side ul li a span.icon{
+	font-size: 28px;
+}
+
+#nav-side ul li a span#text{
+	position: absolute;
+	padding-top: 10px;
+	left: 70px;
+}
+
+#nav-side ul li a small{
+	margin-top: 12px;
+	margin-right: 15px;
+}
+
+
+.resize{
+	padding-left: 20px !important;
+	padding-right: 20px;
+}
+
+.resize:hover{
+	padding-right: 0px;
+}
+
+.animation{
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+}
+
+#nav-side ul ul{
+	background: #171616;
+}
+
+#nav-side ul ul li{
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-left: 70px;
+}
+	
+

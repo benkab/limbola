@@ -1,0 +1,86 @@
+#nav-header{
+	background-color: #ffffff;
+	border-bottom: 1px solid #dddddd;
+	padding-top: 10px;
+	height: 70px;
+	outline: none;
+}
+
+#nav-header a{
+	outline: none;
+}
+
+#nav-header #logo{
+	width: 120px;
+	height: 50px;
+	outline: none;
+}
+
+#nav-header ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	padding-top: 20px;
+}
+
+#nav-header ul li{
+	float: left;
+	margin-left: 8px;
+}
+
+#nav-header ul li#deconnection{
+	margin-top: 4px;
+	outline: none;
+}
+
+#nav-header ul li a{
+	text-decoration: none;
+	color: #626161;
+}
+
+#nav-header ul li a span.icon{
+	text-decoration: none;
+	color: #626161;
+	opacity: 1;
+	font-size: 19px;
+	outline: none;
+}
+
+#nav-header #user-avatar{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	left: -30px;
+	position: absolute;
+	margin-top: -4px;
+}
+
+#nav-header #names{
+	margin-top: 5px;
+}
+
+#nav-header #deconnection{
+	margin-top: -5px;
+}
+
+#nav-header #nav-toggle{
+	text-decoration: none;
+	color: #626161;
+	font-size: 30px;
+	position: absolute;
+	top: 13px;
+	outline: none;
+}
+
+.hidden{
+	display: none;
+}
+
+.maitain-position{
+	position: absolute;
+	top: 0px;
+}
+
+.maintain-margin{
+	margin-bottom: 20px;
+}

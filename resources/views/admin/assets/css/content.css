@@ -1,0 +1,74 @@
+#content{
+	background: #F8F8F8;
+  overflow: visible;
+}
+
+#content #page-content{
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+  font-size: 12px;
+}
+
+#content #page-content .panel{
+  border-color: #E5E7E8;
+  border-top: 6px solid #EFEFEF;
+  -webkit-box-shadow: 4px 11px 49px -27px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 11px 49px -27px rgba(0,0,0,0.75);
+  box-shadow: 4px 11px 49px -27px rgba(0,0,0,0.75);
+  background-color: #ffffff;
+}
+
+#content #page-content h5{
+  font-size: 16px;
+}
+
+#content #page-content h5 span{
+  font-size: 20px;
+}
+
+#content #page-content table{
+  font-size: 12px;
+}
+
+#content #page-content table a{
+  text-decoration: none;
+  color: #2E2D2C;
+  font-size: 14px;
+}
+
+#content #page-content table a:hover{
+  text-decoration: none;
+  color: #2E2D2C;
+}
+
+#content #page-content #render{
+  bottom: 20px;
+  position: absolute;
+  margin-bottom: 0px;
+  
+}
+
+#content #page-content #panel-with-paging{
+  padding-bottom: 30px;
+}
+
+#content #page-content #render a{
+  text-decoration: none;
+  color: #2E2D2C;
+}
+
+#content #page-content #render .active{
+  background: #333333;
+}
+
+#content .pagination > .active > a,
+#content .pagination > .active > a:focus,
+#content .pagination > .active > a:hover,
+#content .pagination > .active > span,
+#content .pagination > .active > span:focus,
+#content .pagination > .active > span:hover {
+    background-color: #333333;
+    border-color: #333333;
+}

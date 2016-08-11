@@ -1,0 +1,373 @@
+.first-group .first_header .thumbnail{
+    border: none;
+    padding: 0px;
+    position: relative;
+}
+
+.first-group .first_header .thumbnail .thumbnail-text{
+    position: absolute;
+    color: #ffffff;
+    z-index: 1000;
+    top: 1%;
+    text-align: center;
+    right: 0px;
+    left: 0px;
+
+}
+
+.thumbnail .thumbnail-text .postLinks{
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 30px;
+}
+
+.thumbnail .thumbnail-text .postLinks a{
+    text-decoration: none;
+}
+
+.thumbnail .thumbnail-text .postLinks a .ion-ios-heart{
+    font-size: 20px;
+}
+
+.thumbnail .thumbnail-text .postLinks a .liked{
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.thumbnail .thumbnail-text .postLinks a .unliked{
+    color: #E84141;
+    opacity: 1;
+}
+
+.thumbnail .thumbnail-text .postLinks span{
+    opacity: 0.9;
+    padding-top: 6px;
+}
+
+.thumbnail .thumbnail-text .postLinks a .ion-android-more-vertical{
+    font-size: 20px;
+    color: #ffffff;
+    opacity: 0.8;
+    padding-right: 5px;
+}
+
+.thumbnail .thumbnail-text .type{
+    padding-top: 10%;
+    text-align: left;
+    padding-left: 10%;
+    font-size: 16px;
+}
+
+.thumbnail .thumbnail-text .type-underlign{
+    border-top: 2px solid #ffffff;
+    width: 30px;
+    margin-left: 10%;
+    padding-bottom: 20px;
+}
+
+.thumbnail .thumbnail-text .title{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.thumbnail .thumbnail-text .title a{
+    font-size: 22px;
+    opacity: 1;
+    font-weight: 200;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: left;
+}
+
+.thumbnail .thumbnail-text .title a:hover{
+    opacity: 0.8;
+}
+
+.first-group .timeline .thumbnail{
+    background: #ffffff !important;
+    border: none;
+    border-radius: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.first-group .timeline .thumbnail .popular{
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-weight: 600;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.first-group .timeline .thumbnail .content{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+.first-group .timeline .thumbnail .content ul{
+    padding: 0px;
+}
+
+.first-group .timeline .thumbnail .content ul li{
+    list-style: none;
+    border-bottom: 1px solid #DEDEDE;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.first-group .timeline .thumbnail .content ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+
+
+@media (max-width: 480px){
+
+    .thumbnail .thumbnail-text .postLinks{
+        padding-bottom: 0px;
+    }
+
+    .thumbnail .thumbnail-text .type{
+        padding-top: 0px;
+    }
+
+    .thumbnail .thumbnail-text .title a{
+        font-size: 16px;
+    }
+ 
+}
+
+.second-group{
+    margin-top: 10px;
+    background: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.second-group .thumbnail{
+    border-radius: 0px;
+    border: none;
+    padding: 0px;
+    position: relative;
+}
+
+.second-group .thumbnail{
+    border: none;
+    padding: 0px;
+    position: relative;
+}
+
+.second-group .thumbnail .thumbnail-text{
+    position: absolute;
+    color: #ffffff;
+    z-index: 1000;
+    top: 1%;
+    text-align: center;
+    right: 0px;
+    left: 0px;
+
+}
+
+.second-group .thumbnail .thumbnail-text .type{
+    padding-left: 10%;
+    padding-top: 0%;
+    font-size: 16px;
+    text-align: left !important;
+}
+
+.second-group .thumbnail .thumbnail-text .type-underlign{
+    border-top: 2px solid #ffffff;
+    width: 30px;
+    margin-left: 10%;
+    padding-bottom: 20px;
+}
+
+.second-group .thumbnail .thumbnail-text .legende-title a{
+    font-size: 18px;
+    opacity: 1;
+    font-weight: 200;
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 10%;
+}
+
+.second-group .thumbnail .thumbnail-text .legende-title small{
+    opacity: 0.8;
+    color: #ffffff;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.third-group{
+    margin-top: 10px;
+    background: #000000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.third-group .thumbnail{
+    border: none;
+    padding: 0px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.third-group .video-title{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.third-group .video-description{
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+
+
+/*.header {
+
+}
+
+
+.header .image img{
+	padding-bottom: 0px;
+    width: 100%;
+}
+
+.carousel{
+	margin-top: 20px !important;
+}
+
+.typed-cursor{
+	font-size: 100%;
+    opacity: 0.8;
+    color: #F42515;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.reaveal-wrapper{
+    border: none;
+    background: transparent;
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+    border-radius: 0px;
+}
+
+.reaveal-overlay{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.6);
+    transition: bottom 0.6s ease;
+    color: #ffffff;
+    border-radius: 0px;
+}
+
+.reaveal-overlay{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    transition: bottom 0.6s ease;
+    color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    border-radius: 0px;
+}
+
+.reaveal-wrapper:hover .reaveal-overlay{
+    bottom: -100%;
+}
+
+.reaveal-overlay p{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.6);
+    transition: bottom 0.1s ease;
+    
+}
+
+.reaveal-overlay #carousel-post-title{
+	margin-top: 30%;
+	font-size: 16px;
+	color: #ffffff;
+	opacity: 0.8;
+}
+
+.reaveal-overlay #carousel-post-title-2{
+	margin-top: 43%;
+}
+.reaveal-overlay a{
+	text-decoration: none;
+	background: #F42515;
+	color: #ffffff;
+	padding: 12px 35px;
+	border-radius: 0px;
+}
+
+.reaveal-overlay #carousel-post-container{
+	max-width: 70%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.reaveal-overlay #carousel-post-link{
+	position: absolute;
+	margin: 0 auto;
+	bottom: 65%;
+	text-align: center;
+	left: 0%;
+	right: 0%;
+}
+
+.reaveal-overlay #carousel-post-link a{
+	
+}
+
+@media (min-width: 780px){
+
+
+}
+
+@media (max-width: 1024px){
+
+
+}
+
+@media (max-width: 480px){
+    
+ 
+}
+*/

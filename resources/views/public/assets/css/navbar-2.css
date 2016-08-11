@@ -1,0 +1,178 @@
+.navbar-2{
+	border-radius: 0px;
+	background: #000000;
+	margin-bottom: 0px;
+	width: 100%;
+	border: none;
+}
+
+a, button{
+	outline: none !important;
+}
+
+
+.navbar-2 ul.navbar-right{
+	padding-top: 15px;
+	padding-top: 16px;
+	padding-bottom: 0px;
+}
+
+.navbar-2 ul.navbar-right li{
+	font-size: 13.5px;
+	margin-left: 35px;
+}
+
+.navbar-2 .dropdown-toggle:active,
+.navbar-2 .dropdown-toggle:hover,
+.navbar-2 .dropdown-toggle:focus{
+	background: transparent;
+}
+
+.navbar-2 ul.navbar-right li a{
+	text-transform: uppercase;
+	color: #E5E4E4;
+	opacity: 0.9;
+}
+
+.navbar-2 ul.navbar-right li a:hover{
+	color: #E5E4E4;
+	opacity: 0.7;
+}
+
+.navbar-2 .dropdown-menu{
+	padding: 20px 0px;
+	margin: 0px !important;
+	text-align: center;
+}
+
+.navbar-2 .dropdown-menu li{
+	margin: 0px !important;
+	padding: 10px 0px;
+}
+
+.navbar-2 .dropdown-menu li a{
+	margin: 0px !important;
+	padding: 10px 0px;
+}
+
+.navbar-2 ul.navbar-right li a{
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-right: 0px;
+	padding-right: 0px; 
+}
+
+.navbar-2 #visitor-avatar{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.navbar-2 #user-avatar{
+	margin-top: -10px;
+}
+
+.navbar-2 #logout{
+	margin-left: 5px;
+}
+
+.navbar-2 #connexion a{
+	padding: 4px 12px;
+	color: #ffffff;
+	background: #000000;
+	font-size: 13px;
+	margin-top: 11px;
+}
+
+.navbar-2 #connexion a:hover{
+	color: #ffffff;
+}
+
+.active-link{
+	border-bottom: 2px solid #F42515;
+}
+
+.navbar-2 ul li{
+	list-style: none;
+	display: inline;
+}
+
+.navbar-2 ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	outline: none;
+}
+
+.navbar-2 ul li a#search{
+	color: #ffffff;
+	font-size: 17px;
+}
+
+.navbar-2 .dropdown-menu{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.navbar-2 .dropdown-toggle{
+	background: transparent;
+}
+
+.navbar-2 ul li a#search:hover{
+	opacity: .7;
+	font-size: 17px;
+}
+
+.navbar-2 .mobile ul{
+	display: inline;
+	position: absolute;
+	right: 10%;
+	top: 47%;
+}
+
+.navbar-2 ul #menu{
+	padding-left: 5px;
+	cursor: pointer;
+}
+
+.navbar-2 ul li a #menu-text{
+	font-size: 16px;
+	opacity: 1;
+	margin-left: 2px;
+}
+
+.navbar-2 ul li a span.ion-navicon{
+	font-size: 26px;
+	opacity: 1;
+	position: absolute;
+	margin-left: 5px;
+	top: -5px;
+}
+
+.navbar-2 #logo-container{
+	outline: none;
+}
+
+.navbar-2 #logo{
+	width: 140px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	opacity: 0.8;
+	margin-left: 0px;
+}
+
+.navbar-2 #logo:hover{
+	opacity: .9;
+}
+
+@media (max-width: 480px){
+
+    .navbar-2 #logo{
+		width: 120px;
+		height: 60px;
+		margin-top: 8px;
+		margin-bottom: 5px;
+		opacity: 1;
+		margin-left: 8px;
+		transition: all 0.5s ease-in-out;
+	}
+}

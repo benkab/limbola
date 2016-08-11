@@ -1,0 +1,210 @@
+#view_posts{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#view_posts .thumbnail{
+	background: transparent;
+	border: none;
+}
+
+#view_posts .thumbnail img{
+	border-radius: 5px;
+	-webkit-box-shadow: 0px -2px 7px -3px rgba(148,135,148,1);
+	-moz-box-shadow: 0px -2px 7px -3px rgba(148,135,148,1);
+	box-shadow: 0px -2px 7px -3px rgba(148,135,148,1);
+	border-bottom-left-radius : 0px;
+	border-bottom-right-radius : 0px;
+}
+
+#view_posts .thumbnail .caption{
+	background: #ffffff;
+	-webkit-box-shadow: 0px 4px 17px -4px rgba(0,0,0,0.70);
+	-moz-box-shadow: 0px 4px 17px -4px rgba(0,0,0,0.70);
+	box-shadow: 0px 4px 17px -4px rgba(0,0,0,0.70);
+  	text-align: center;
+  	opacity: .8;
+  	padding-bottom: 45px;
+	margin-top: 0px;
+}
+
+#view_posts .thumbnail .caption #social-networks{
+	display: table;
+}
+
+#view_posts .thumbnail .caption #social-networks ul{
+	padding: 0px;
+}
+
+#view_posts .thumbnail .caption #social-networks ul li{
+	list-style: none;
+	display: inline;
+	margin-right: 2px;
+}
+
+#view_posts .thumbnail .caption #social-networks ul li a{
+	text-decoration: none;
+}
+
+#view_posts .thumbnail .caption #social-networks ul li a span{
+	font-size: 17px;
+	color: #171616;
+}
+
+#view_posts .thumbnail .caption #social-networks ul li a span.ion-social-facebook:hover{
+	color: #3896D6;
+}
+
+#view_posts .thumbnail .caption #social-networks ul li a span.ion-social-twitter:hover{
+	color: #7BE2F7;
+}
+
+#view_posts .thumbnail .caption #social-networks ul li a span.ion-social-googleplus:hover{
+	color: #F1737B;
+}
+
+#view_posts .thumbnail .caption #post-title-container{
+	display: table;
+	height: 100px;
+	min-width: 80%;
+	margin: 0px auto;
+	margin-top: 15px;
+	text-align: center !important;
+}
+
+#view_posts .thumbnail .caption #post-title{
+	text-align: center !important;
+	display: table-cell;
+    vertical-align: middle;
+    opacity: .9;
+    font-size: 15px;
+    min-width: 70%;
+	margin: 0px auto;
+	padding-top: 15px;
+	font-weight: normal;
+
+}
+
+#view_posts .thumbnail .caption #post-title a{
+	text-decoration: none;
+    color: #171616;
+    font-weight: normal;
+}
+
+.thumbnail .caption #post-lign { 
+    border-top: 1px solid black;
+    max-width: 10%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    opacity: .2;
+}
+
+#view_posts .thumbnail .caption #post-lign-2 { 
+    border-top: 1px solid black;
+    max-width: 10%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    opacity: .2;
+
+}
+
+
+#view_posts .thumbnail .caption #date{
+
+	display: table-cell;
+    vertical-align: middle;
+}
+
+#view_posts .thumbnail .caption #actions{
+	position: relative;
+}
+
+#view_posts .thumbnail .caption #likes a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #171616;
+}
+
+#view_posts .thumbnail .caption #comments a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #171616;
+	opacity: .5;
+}
+
+#view_posts .thumbnail .caption #comments a #comments-number{
+	position: absolute;
+	padding-left: 8px;
+	padding-right: 5px;
+	right: 5px;
+	top: 8px;
+}
+
+#view_posts .thumbnail .caption #comments a .ion-ios-chatbubble-outline{
+	font-size: 24px;
+	position: absolute;
+	right: 20px;
+	top: 2px;
+}
+
+#view_posts .thumbnail .caption #likes a .ion-android-favorite-outline{
+	color: #171616;
+	opacity: .3;
+	padding-top: 5px;
+	position: absolute;
+	right: 60px;
+}
+
+#view_posts .thumbnail .caption #likes a .ion-android-favorite{
+	color: #68B6E8;
+	opacity: 1;
+	padding-top: 5px;
+	position: absolute;
+	right: 60px;
+}
+
+#view_posts .thumbnail .caption #numbers{
+	opacity: .4;
+	font-size: 14px;
+	top: -1px;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 10px;
+	right: 48px;
+}
+
+#view_posts .thumbnail .caption #favorite a .ion-ios-star-outline{
+	color: #171616;
+	opacity: .3;
+	
+}
+
+#view_posts .thumbnail .caption #favorite a .ion-ios-star{
+	color: #FFD33C;
+	opacity: 1;
+	
+}
+
+#view_posts .thumbnail .caption #comments-share a .ion-ios-chatbubble-outline{
+	color: #171616;
+	opacity: .3;
+}
+
+
+
+#view_posts .thumbnail .caption #comments-share a .ion-ios-redo-outline{
+	color: #171616;
+	opacity: .6;
+}
+
+#view_posts .thumbnail .caption #favorite a{
+	text-decoration: none;
+	font-size: 25px;
+	color: #171616;
+}
+
+#view_posts .thumbnail .caption .ion-ios-information-outline{
+	opacity: .3;
+}

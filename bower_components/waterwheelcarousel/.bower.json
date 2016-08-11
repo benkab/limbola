@@ -1,0 +1,15 @@
+{
+  "name": "waterwheelcarousel",
+  "main": "js/jquery.waterwheelCarousel.js",
+  "homepage": "https://github.com/tindl88/waterWheelCarousel",
+  "_release": "f45ba14826",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f45ba1482633240af6ac0e438b7a811064181265"
+  },
+  "_source": "https://github.com/tindl88/waterWheelCarousel.git",
+  "_target": "*",
+  "_originalSource": "waterwheelcarousel",
+  "_direct": true
+}

@@ -1,0 +1,97 @@
+#identification{
+	margin: 0px;
+	margin-top: 60px;
+
+}
+
+#identification h4 small{
+	color: #F42515;
+}
+
+#identification .panel-default{
+	border: none;
+	padding: 25px 30px;
+	-webkit-box-shadow: 0px 4px 12px -2px rgba(145,143,145,1);
+	-moz-box-shadow: 0px 4px 12px -2px rgba(145,143,145,1);
+	box-shadow: 0px 4px 12px -2px rgba(145,143,145,1);
+}
+
+#identification .ion-android-lock{
+	text-align: center;
+	padding-right: 1px;
+}
+
+#identification #visitor-login{
+	padding-bottom: 30px;
+}
+
+#identification .input-group-addon{
+	background: #ffffff;
+	border-right: none;
+	border-right-color: transparent;
+}
+
+#identification input{
+	-moz-appearance:none !important;
+    -webkit-appearance:none !important;
+    box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+
+#identification input:hover, #identification input:active, #identification input:focus{
+	outline: none !important;
+	-moz-appearance:none !important;
+    -webkit-appearance:none !important;
+    box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	border-color: none !important;
+}
+
+.motdepasseoublie a{
+	text-decoration: none;
+	color: #333333;
+	opacity: .7;
+}
+
+.motdepasseoublie a:hover{
+	opacity: 1;
+}
+
+#identification ul{
+	padding: 0px;
+}
+
+#identification ul li{
+	list-style: none;
+	display: inline;
+	margin-right: 2px;
+}
+
+#identification ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+#identification ul li a{
+	text-decoration: none;
+}
+
+#identification ul li a span{
+	font-size: 17px;
+	color: #171616;
+}
+
+#identification ul li a span.ion-social-facebook:hover{
+	color: #3896D6;
+}
+
+#identification ul li a span.ion-social-twitter:hover{
+	color: #7BE2F7;
+}
+
+#identification ul li a span.ion-social-googleplus:hover{
+	color: #F1737B;
+}
